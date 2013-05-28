@@ -48,6 +48,9 @@ namespace InterfaceAbstract
             Dog woof = new Dog();
             woof.hunt();
 
+            Cat cat = new Cat();
+            cat.speak();
+
             Console.ReadLine();
         }
     }
